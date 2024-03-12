@@ -4,7 +4,7 @@ import * as urql from "@urql/core";
 console.log({ urql, createClient });
 
 const client = urql.createClient({
-  url: "",
+  url: "https://beta.pokeapi.co/graphql/v1beta",
   exchanges: [fetchExchange],
 });
 
